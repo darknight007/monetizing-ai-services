@@ -1,0 +1,74 @@
+[
+  {
+    "customer_id": "cust_001",
+    "region": "US",
+    "product": "CRM",
+    "workflows": 120,
+    "avg_tokens_in": 2000,
+    "avg_tokens_out": 400,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_002",
+    "region": "EU",
+    "product": "Analytics",
+    "workflows": 80,
+    "avg_tokens_in": 5000,
+    "avg_tokens_out": 1000,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_003",
+    "region": "APAC",
+    "product": "Support",
+    "workflows": 300,
+    "avg_tokens_in": 200,
+    "avg_tokens_out": 150,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_004",
+    "region": "US",
+    "product": "Payments",
+    "workflows": 40,
+    "avg_tokens_in": 1000,
+    "avg_tokens_out": 200,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_005",
+    "region": "EU",
+    "product": "CRM",
+    "workflows": 150,
+    "avg_tokens_in": 2500,
+    "avg_tokens_out": 500,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_006",
+    "region": "APAC",
+    "product": "Analytics",
+    "workflows": 60,
+    "avg_tokens_in": 4000,
+    "avg_tokens_out": 800,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_007",
+    "region": "US",
+    "product": "Support",
+    "workflows": 200,
+    "avg_tokens_in": 250,
+    "avg_tokens_out": 180,
+    "month": "2025-11"
+  },
+  {
+    "customer_id": "cust_008",
+    "region": "LATAM",
+    "product": "CRM",
+    "workflows": 90,
+    "avg_tokens_in": 1800,
+    "avg_tokens_out": 350,
+    "month": "2025-11"
+  }
+]

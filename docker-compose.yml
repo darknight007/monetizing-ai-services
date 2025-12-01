@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # Tax Mock API Service
+  tax-mock:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TAX_API_KEYS=demo-key-12345,test-key-67890
+      - LOG_LEVEL=INFO
+    command: uvicorn tools.openapi_tax_mock:app --host 0.0.0.0 --port 9000 --reload
+    volumes:
+      - ./output:/app/output
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - scrooge-network
+
+  # Streamlit UI Service
+  streamlit-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
+      - USE_GEMINI=0
+      - TAX_API_URL=http://tax-mock:9000
+      - TAX_API_KEY=demo-key-12345
+      - LOG_LEVEL=INFO
+    command: streamlit run ui/app.py --server.port 8501 --server.address 0.0.0.0
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data
+    depends_on:
+      tax-mock:
+        condition: service_healthy
+    networks:
+      - scrooge-network
+
+networks:
+  scrooge-network:
+    driver: bridge
+
+volumes:
+  output-data:

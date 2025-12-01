@@ -1,0 +1,407 @@
+{
+  "data": [
+    {
+      "region": "US",
+      "product": "CRM",
+      "workflows": 120,
+      "tokens_in": 240000,
+      "tokens_out": 48000
+    },
+    {
+      "region": "EU",
+      "product": "Analytics",
+      "workflows": 80,
+      "tokens_in": 400000,
+      "tokens_out": 80000
+    },
+    {
+      "region": "APAC",
+      "product": "Support",
+      "workflows": 300,
+      "tokens_in": 60000,
+      "tokens_out": 45000
+    },
+    {
+      "region": "US",
+      "product": "Payments",
+      "workflows": 40,
+      "tokens_in": 40000,
+      "tokens_out": 8000
+    },
+    {
+      "region": "EU",
+      "product": "CRM",
+      "workflows": 150,
+      "tokens_in": 375000,
+      "tokens_out": 75000
+    },
+    {
+      "region": "APAC",
+      "product": "Analytics",
+      "workflows": 60,
+      "tokens_in": 240000,
+      "tokens_out": 48000
+    },
+    {
+      "region": "US",
+      "product": "Support",
+      "workflows": 200,
+      "tokens_in": 50000,
+      "tokens_out": 36000
+    },
+    {
+      "region": "LATAM",
+      "product": "CRM",
+      "workflows": 90,
+      "tokens_in": 162000,
+      "tokens_out": 31500
+    }
+  ],
+  "costs": [
+    {
+      "region": "US",
+      "product": "CRM",
+      "model": "gpt-4o",
+      "workflows": 120,
+      "token_cost": 8.64,
+      "workflow_overhead": 1.2,
+      "cost": 9.84
+    },
+    {
+      "region": "US",
+      "product": "CRM",
+      "model": "gemini-pro",
+      "workflows": 120,
+      "token_cost": 7.2,
+      "workflow_overhead": 1.2,
+      "cost": 8.4
+    },
+    {
+      "region": "US",
+      "product": "CRM",
+      "model": "llama-2",
+      "workflows": 120,
+      "token_cost": 2.016,
+      "workflow_overhead": 1.2,
+      "cost": 3.216
+    },
+    {
+      "region": "US",
+      "product": "CRM",
+      "model": "claude-3",
+      "workflows": 120,
+      "token_cost": 4.32,
+      "workflow_overhead": 1.2,
+      "cost": 5.52
+    },
+    {
+      "region": "EU",
+      "product": "Analytics",
+      "model": "gpt-4o",
+      "workflows": 80,
+      "token_cost": 14.4,
+      "workflow_overhead": 0.8,
+      "cost": 15.2
+    },
+    {
+      "region": "EU",
+      "product": "Analytics",
+      "model": "gemini-pro",
+      "workflows": 80,
+      "token_cost": 12.0,
+      "workflow_overhead": 0.8,
+      "cost": 12.8
+    },
+    {
+      "region": "EU",
+      "product": "Analytics",
+      "model": "llama-2",
+      "workflows": 80,
+      "token_cost": 3.36,
+      "workflow_overhead": 0.8,
+      "cost": 4.16
+    },
+    {
+      "region": "EU",
+      "product": "Analytics",
+      "model": "claude-3",
+      "workflows": 80,
+      "token_cost": 7.2,
+      "workflow_overhead": 0.8,
+      "cost": 8.0
+    },
+    {
+      "region": "APAC",
+      "product": "Support",
+      "model": "gpt-4o",
+      "workflows": 300,
+      "token_cost": 3.15,
+      "workflow_overhead": 3.0,
+      "cost": 6.15
+    },
+    {
+      "region": "APAC",
+      "product": "Support",
+      "model": "gemini-pro",
+      "workflows": 300,
+      "token_cost": 2.625,
+      "workflow_overhead": 3.0,
+      "cost": 5.625
+    },
+    {
+      "region": "APAC",
+      "product": "Support",
+      "model": "llama-2",
+      "workflows": 300,
+      "token_cost": 0.735,
+      "workflow_overhead": 3.0,
+      "cost": 3.735
+    },
+    {
+      "region": "APAC",
+      "product": "Support",
+      "model": "claude-3",
+      "workflows": 300,
+      "token_cost": 1.575,
+      "workflow_overhead": 3.0,
+      "cost": 4.575
+    },
+    {
+      "region": "US",
+      "product": "Payments",
+      "model": "gpt-4o",
+      "workflows": 40,
+      "token_cost": 1.44,
+      "workflow_overhead": 0.4,
+      "cost": 1.84
+    },
+    {
+      "region": "US",
+      "product": "Payments",
+      "model": "gemini-pro",
+      "workflows": 40,
+      "token_cost": 1.2,
+      "workflow_overhead": 0.4,
+      "cost": 1.6
+    },
+    {
+      "region": "US",
+      "product": "Payments",
+      "model": "llama-2",
+      "workflows": 40,
+      "token_cost": 0.336,
+      "workflow_overhead": 0.4,
+      "cost": 0.736
+    },
+    {
+      "region": "US",
+      "product": "Payments",
+      "model": "claude-3",
+      "workflows": 40,
+      "token_cost": 0.72,
+      "workflow_overhead": 0.4,
+      "cost": 1.12
+    },
+    {
+      "region": "EU",
+      "product": "CRM",
+      "model": "gpt-4o",
+      "workflows": 150,
+      "token_cost": 13.5,
+      "workflow_overhead": 1.5,
+      "cost": 15.0
+    },
+    {
+      "region": "EU",
+      "product": "CRM",
+      "model": "gemini-pro",
+      "workflows": 150,
+      "token_cost": 11.25,
+      "workflow_overhead": 1.5,
+      "cost": 12.75
+    },
+    {
+      "region": "EU",
+      "product": "CRM",
+      "model": "llama-2",
+      "workflows": 150,
+      "token_cost": 3.15,
+      "workflow_overhead": 1.5,
+      "cost": 4.65
+    },
+    {
+      "region": "EU",
+      "product": "CRM",
+      "model": "claude-3",
+      "workflows": 150,
+      "token_cost": 6.75,
+      "workflow_overhead": 1.5,
+      "cost": 8.25
+    },
+    {
+      "region": "APAC",
+      "product": "Analytics",
+      "model": "gpt-4o",
+      "workflows": 60,
+      "token_cost": 8.64,
+      "workflow_overhead": 0.6,
+      "cost": 9.24
+    },
+    {
+      "region": "APAC",
+      "product": "Analytics",
+      "model": "gemini-pro",
+      "workflows": 60,
+      "token_cost": 7.2,
+      "workflow_overhead": 0.6,
+      "cost": 7.8
+    },
+    {
+      "region": "APAC",
+      "product": "Analytics",
+      "model": "llama-2",
+      "workflows": 60,
+      "token_cost": 2.016,
+      "workflow_overhead": 0.6,
+      "cost": 2.616
+    },
+    {
+      "region": "APAC",
+      "product": "Analytics",
+      "model": "claude-3",
+      "workflows": 60,
+      "token_cost": 4.32,
+      "workflow_overhead": 0.6,
+      "cost": 4.92
+    },
+    {
+      "region": "US",
+      "product": "Support",
+      "model": "gpt-4o",
+      "workflows": 200,
+      "token_cost": 2.58,
+      "workflow_overhead": 2.0,
+      "cost": 4.58
+    },
+    {
+      "region": "US",
+      "product": "Support",
+      "model": "gemini-pro",
+      "workflows": 200,
+      "token_cost": 2.15,
+      "workflow_overhead": 2.0,
+      "cost": 4.15
+    },
+    {
+      "region": "US",
+      "product": "Support",
+      "model": "llama-2",
+      "workflows": 200,
+      "token_cost": 0.602,
+      "workflow_overhead": 2.0,
+      "cost": 2.602
+    },
+    {
+      "region": "US",
+      "product": "Support",
+      "model": "claude-3",
+      "workflows": 200,
+      "token_cost": 1.29,
+      "workflow_overhead": 2.0,
+      "cost": 3.29
+    },
+    {
+      "region": "LATAM",
+      "product": "CRM",
+      "model": "gpt-4o",
+      "workflows": 90,
+      "token_cost": 5.805,
+      "workflow_overhead": 0.9,
+      "cost": 6.705
+    },
+    {
+      "region": "LATAM",
+      "product": "CRM",
+      "model": "gemini-pro",
+      "workflows": 90,
+      "token_cost": 4.8375,
+      "workflow_overhead": 0.9,
+      "cost": 5.7375
+    },
+    {
+      "region": "LATAM",
+      "product": "CRM",
+      "model": "llama-2",
+      "workflows": 90,
+      "token_cost": 1.3545,
+      "workflow_overhead": 0.9,
+      "cost": 2.2545
+    },
+    {
+      "region": "LATAM",
+      "product": "CRM",
+      "model": "claude-3",
+      "workflows": 90,
+      "token_cost": 2.9025,
+      "workflow_overhead": 0.9,
+      "cost": 3.8025
+    }
+  ],
+  "bundle": {
+    "bundle_name": "Support+CRM",
+    "products": [
+      "Support",
+      "CRM"
+    ],
+    "expected_uplift_pct": 12,
+    "confidence": "medium",
+    "workflows_product1": 500,
+    "workflows_product2": 360,
+    "balance_ratio": 0.72,
+    "llm_justification": "Suggested bundle: CRM+Support with expected uplift 8%",
+    "llm_tokens": 7
+  },
+  "pricing": {
+    "model": "HYBRID",
+    "base_fee": 143.55,
+    "per_workflow": 0.239,
+    "per_1k_tokens": 0.0096,
+    "pi_index": 0.64,
+    "currency": "USD",
+    "billing_period": "monthly",
+    "cost_analysis": {
+      "median_cost": 4.785,
+      "mean_cost": 5.9645,
+      "min_cost": 0.736,
+      "max_cost": 15.2,
+      "cost_variance": 2.43
+    },
+    "margin_applied": 3.0,
+    "bundle_name": "Support+CRM",
+    "justification": "Suggested bundle: CRM+Support with expected uplift 8%",
+    "llm_tokens": 7,
+    "example_calculation": {
+      "assumptions": {
+        "workflows": 100,
+        "tokens_in": 200000,
+        "tokens_out": 50000
+      },
+      "base_fee": 143.55,
+      "workflow_charge": 23.9,
+      "token_charge": 2.4,
+      "total_monthly": 169.85
+    }
+  },
+  "compliance": {
+    "ok": true,
+    "region": "EU",
+    "amount": 143.55,
+    "vat": 28.71,
+    "total_with_tax": 172.26,
+    "currency": "USD",
+    "tax_rate_pct": 20.0,
+    "timestamp": 1764579428.822318,
+    "validated_amount": 143.55,
+    "compliance_status": "PASSED"
+  }
+}
