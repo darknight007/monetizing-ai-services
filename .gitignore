@@ -49,6 +49,30 @@ service-account.json
 *-key.json
 secrets/
 
+# Analysis & Decision Documents (keep in workspace, not in git)
+GOOGLE_ADK_*.md
+COMPLIANCE_ENHANCEMENT_ANALYSIS.md
+COMPETITIVE_INTELLIGENCE_ANALYSIS.md
+CRITICAL_GAP_ANALYSIS*.md
+REQUIREMENTS_AUDIT*.md
+EVALUATION_GUIDE.md
+DECISION*.md
+A2A_PROTOCOL_ANALYSIS.md
+BUSINESS_LEAD_SUMMARY.md
+PHASE_IMPLEMENTATION_SUMMARY.md
+NUMERIC_EXAMPLES.md
+PROJECT_SUMMARY.md
+PRODUCT_NUMERICS.md
+
+# Generated/Cache files
+results.json
+audit_ledger.jsonl
+*.rtf
+all_agents_outputs_sample.json.rtf
+
+# CSV data files
+invoice.csv
+
 # Output and logs
 output/
 logs/
